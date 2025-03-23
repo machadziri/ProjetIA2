@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/robinjung/SentimentAnalysis/SentimentAnalysis.csproj": {}
+  },
+  "projects": {
+    "/Users/robinjung/SentimentAnalysis/SentimentAnalysis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/robinjung/SentimentAnalysis/SentimentAnalysis.csproj",
+        "projectName": "SentimentAnalysis",
+        "projectPath": "/Users/robinjung/SentimentAnalysis/SentimentAnalysis.csproj",
+        "packagesPath": "/Users/robinjung/.nuget/packages/",
+        "outputPath": "/Users/robinjung/SentimentAnalysis/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/robinjung/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.ML.Probabilistic.Compiler": {
+              "target": "Package",
+              "version": "[0.4.2403.801, )"
+            },
+            "ScottPlot": {
+              "target": "Package",
+              "version": "[5.0.55, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "WordCloudSharp": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
