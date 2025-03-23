@@ -22,6 +22,8 @@ Fichiers inclus
 Lancer le projet
 -------------------
 
+-Ouvrir le terminal
+
 Lance l'application :
    streamlit run projet.py
 
